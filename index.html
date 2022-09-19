@@ -7,16 +7,16 @@
 
   <title>Sandra Picarra Portfolio</title>
   <meta content="Portfolio de Sandra Picarra" name="description">
-  <meta content="Portfolio Sandra Picarra" name="keywords">
+  <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon_io/favicon.png" rel="icon">
   <link href="assets/img/favicon_io/apple-touch-icon.png" rel="apple-touch-icon"-->
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image.png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image.png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image.png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image.png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -41,28 +41,145 @@
     <div class="container">
 
       <h1><a href="index.html">Sandra Picarra</a></h1>
-      <!-- text intro -->
+      <!-- image logo -->
+      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <h2>I'm a passionate <span>web designer</span> with a creative mind</h2>
-      
+      <!--h3 class="d-none d-lg-block">Designer | Developer | Illustrator</h3-->
+
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link active" href="#header">Home</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
           <li><a class="nav-link" href="#resume">Resume</a></li>
+          <!--li><a class="nav-link" href="#services">Services</a></li-->
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          <!--li><a class="nav-link" href="#contact">Contact</a></li-->
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
       <!-- .navbar -->
 
       <div class="social-links">
-        <a href="https://www.linkedin.com/in/sandra-picarra-computing-in-digital-media" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <!--a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a-->
         <a href="https://www.youtube.com/channel/UC2AvMyYVw2q-yD4aIbH-J_Q" class="youtube"><i class="bi bi-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/sandra-picarra-computing-in-digital-media" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
-      
+
     </div>
+  <!--Animation-->
+  <!--div class="d-none d-lg-block">
+  <div class="scene">
+  <span class="cloud cloud--small"></span>
+  <svg xmlns="http://www.w3.org/2000/svg" id="plane" class="plane" viewBox="0 0 104 47" x="0" y="0" width="104" height="47" background-color="#ffffff00">
+    <g id="avion">
+      <path d="M20 36C25 38 69 43 80 40 92 38 106 33 104 21 103 13 95 13 90 9 85 5 79 2 76 1 70-1 65 0 60 2 57 3 25 14 23 13 21 12 12 2 9 3 5 4 1 5 1 6 2 7 15 34 20 36Z" fill="#0085b2"/>
+      <path d="M23 36C28 37 69 43 80 40 88 38 98 34 102 29 82 32 22 36 23 36Z" stroke="#ffffff00" stroke-width="1" fill="#14647f"/>
+      <path d="M42 39C48 40 60 40 67 40 71 32 72 26 72 26L44 29C44 29 44 35 42 39Z" stroke="#ffffff00" stroke-width="1" fill="#0c3b4d"/>
+      <path d="M7 16C7 16 9 20 10 22 13 27 16 13 16 13L7 16Z" stroke="#ffffff00" stroke-width="1" fill="#0c3b4d"/>
+      <path d="M40 29C40 29 41 34 34 42 27 51 48 46 58 39 74 28 72 25 72 25L40 29Z" stroke="#ffffff00" stroke-width="1" fill="#006e96"/>
+      <path d="M5 14C5 14 6 15 3 19 1 22 10 20 13 17 19 11 17 11 17 11L5 14Z" stroke="#ffffff00" stroke-width="1" fill="#006e96"/>
+      <path d="M90 10C88 8 83 4 80 3 78 3 68 7 68 8 70 12 80 8 90 10Z" stroke="#ffffff00" stroke-width="1" fill="#0c3b4d"/>
+      <path d="M89 9C87 7 82 3 79 2 77 2 67 6 67 7 69 11 79 7 89 9Z" stroke="#ffffff00" stroke-width="1" fill="#afe2ff"/>
+    </g>
+  </svg>
+  <span class="cloud cloud--medium"></span>
+  <span class="cloud cloud--large"></span>
+</div>
+</div>
+
+<style>
   
+  .scene{position:relative;
+  display:block; 
+  margin:0 auto; 
+  width:300px;
+  height:200px; 
+}
+.plane,
+.cloud{
+  position:absolute;
+}
+/*plane animation*/
+.plane{ 
+  animation-duration: 1s;
+  animation-name: anim-plane;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function:linear;
+  
+  animation-fill-mode:forwards;    
+  display:block;
+  margin:0 auto;
+  transform: translateY(80px);
+  left:30%;
+}
+
+@keyframes anim-plane{ 
+  to{
+    transform:translateY(95px);
+  }    
+}
+
+
+/* Cloud Animation */
+
+@keyframes fade{
+  0%{ opacity: 0;}
+  10%{ opacity: 1;}
+  90%{ opacity:1;}
+  100%{ opacity:0;}
+}
+
+@keyframes move{  
+  from{ 
+    left:200px; 
+  }
+  to{ 
+    left:0px; 
+  }
+}
+ 
+
+.cloud{ 
+  animation-duration:10s; 
+  animation-name:move, fade;
+  animation-direction: normal;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear; 
+  animation-fill-mode:both;   
+  
+  display:block;
+  background:url(data:image/svg+xml;base64,PHN2ZyBpZD0iY2xvdWQiIHZpZXdCb3g9IjAgMCA1MiA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI1MnB4IiBoZWlnaHQ9IjQwcHgiPgoJPGRlZnM+CgkJPGZpbHRlciBpZD0iZjEiIHg9Ii0xMDAlIiB5PSItMTAwJSIgd2lkdGg9IjMwMCUiIGhlaWdodD0iMzAwJSI+IAoJCQk8ZmVPZmZzZXQgcmVzdWx0PSJvdXQiIGluPSJTb3VyY2VHcmFwaGljIiBkeD0iMCIgZHk9IjEiLz4KCQkJPGZlQ29sb3JNYXRyaXggcmVzdWx0PSJvdXQiIGluPSJvdXQiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgIDAgMCAwIDAgMCAgMCAwIDAgMCAwICAwIDAgMCAwLjQgMCIvPgoJCQk8ZmVHYXVzc2lhbkJsdXIgcmVzdWx0PSJvdXQiIGluPSJvdXQiIHN0ZERldmlhdGlvbj0iMiIvPgoJCQk8ZmVCbGVuZCBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJvdXQiIG1vZGU9Im5vcm1hbCIgcmVzdWx0PSJkcCIvPgoJCTwvZmlsdGVyPgoJPC9kZWZzPiAKCTxwYXRoIGlkPSJmZy1jbG91ZCIgZmlsdGVyPSJ1cmwoI2YxKSIgZD0iTTYuMyAzNS4xQzQuNyAzNC4yLTAuNCAzMi4zIDEuNCAyNSAzLjEgMTguMSA4LjcgMTkuNSA4LjcgMTkuNSA4LjcgMTkuNSAzLjIgMTQuMSAxMC40IDYuOCAxNi45IDAuMiAyMy4xIDQuNiAyMy4xIDQuNiAyMy4xIDQuNiAzMC0xLjcgMzUuMiAyLjQgNDQuNiA5LjcgNDIuOCAyNS4zIDQyLjggMjUuMyA0Mi44IDI1LjMgNDggMjIuNiA0OS44IDI4LjYgNTEgMzIuNyA0NiAzNS44IDQyLjggMzYuNyAzOS43IDM3LjUgOC45IDM2LjYgNi4zIDM1LjFaIiBzdHJva2U9IiNjY2NjY2MiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0iI2ZmZmZmZiIvPgo8L3N2Zz4=);
+  height:40px;
+  width:53px;
+  margin:0 auto;  
+}
+.cloud--small{
+  animation-duration:6s; 
+  top:65px;
+  transform: scaleX(0.5) scaleY(0.5); 
+}
+.cloud--medium{ 
+  animation-duration:5s;
+  animation-delay:1s;
+  top:95px;
+  transform: scaleX(0.7) scaleY(0.7); 
+}
+.cloud--large{
+  animation-duration:4.5s;
+  animation-delay:2.5s;
+  top:95px;
+  transform: scaleX(0.8) scaleY(0.8); 
+}
+
+.whoami{
+  padding-top:3em;
+  text-align:center;  
+}
+</style-->
+
   </header><!-- End Header -->
 
   <!-- ======= About Section ======= -->
@@ -152,7 +269,229 @@
 
     </div><!-- End Counts -->
 
+    <!-- ======= Skills  ======= -
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
       </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">HTML <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">CSS <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">JavaScript <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">PHP <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Photoshop <i class="val">55%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Skills --
+
+    <!-- ======= Interests ======= -->
+    <!--div class="interests container">
+
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-store-line" style="color: #ffbb2c;"></i>
+            <h3>Lorem Ipsum</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+            <h3>Dolor Sitema</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+            <h3>Sed perspiciatis</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+            <h3>Magni Dolores</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-database-2-line" style="color: #47aeff;"></i>
+            <h3>Nemo Enim</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+            <h3>Eiusmod Tempor</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+            <h3>Midela Teren</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+            <h3>Pira Neve</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-anchor-line" style="color: #b2904f;"></i>
+            <h3>Dirada Pack</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-disc-line" style="color: #b20969;"></i>
+            <h3>Moton Ideal</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-base-station-line" style="color: #ff5828;"></i>
+            <h3>Verdo Park</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+            <h3>Flavor Nivelanda</h3>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Interests -->
+
+    <!-- ======= Testimonials ======= -->
+    <!--div class="testimonials container">
+
+      <div class="section-title">
+        <h2>Testimonials</h2>
+      </div>
+
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Saul Goodman</h3>
+              <h4>Ceo &amp; Founder</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <!--div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <!--div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <!--div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <!--div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+            </div>
+          </div><!-- End testimonial item --
+
+        </div>
         <div class="swiper-pagination"></div>
       </div>
 
@@ -190,7 +529,7 @@
 
           <h3 class="resume-title">Education</h3>
           <div class="resume-item">
-            <h4>Master of Arts in E-Learning Design and Development - NFQ Level 9</h4>
+            <h4>Master of Arts <!--&amp;-->in E-Learning Design and Development - NFQ Level 9</h4>
             <h5>2022 - 2023</h5>
             <p><em>Munster Technological University, Cork, Ireland</em></p>
             <h6>Modules</h6>
@@ -202,6 +541,7 @@
             <p><em>Mary Immaculate College, Limerick, Ireland</em></p>
             <h6>Modules</h6>
             <p>Reflective and Professional Practice, Teaching and Curriculum Studies 1, Learning and Technology, Psychology and Sociology of Adult and Education, Teaching and Curriculum Studies 2, History and Philosophy of Adult and Education, Practicum 1/2 <br>Student/Teacher in web design, digital media technology, graphic design, internet skills, spreadsheets</p>
+            <!--p>Result: 2.4</p-->
           </div>
           <div class="resume-item">
             <h4>Bachelor of Science (Hons) in Interactive Digital Media - NFQ Level 8 </h4>
@@ -209,6 +549,7 @@
             <p><em>Limerick Institute of Technology, Limerick, Ireland</em></p>
             <h6>Modules</h6>
             <p>Major Digital Media project, Design Thinking, Enterprise application development (Java), 3D graphics and imaging (3DXMAX), Entrepreneurship, Human factors in HCI, Advanced programming concepts, Advanced programming concepts (Java), Data visualization</p>
+            <!--p>Result: 2.2</p-->
           </div>
           <div class="resume-item">
             <h4>Bachelor of Science in Computing and Digital Media - NFQ Level 7</h4>
@@ -219,6 +560,7 @@
             <p>Mobile Web app design development 1&2 (Android Studio, Angular, Ionic), Dynamic Web Development (PHP, SQL), Object-Oriented Computing 2 (Java, JavaFX), Professional Practice, Applied Modelling and Simulation (Blender), 3D Modelling and Animation (Blender), Digital Marketing & Web Analytics (Design thinking, SEO, WordPress), Audio Video Design & Production 2 (Adobe Audition, Adobe After Effects), Software Quality Management (Testing)</p>
             <p>Year 2</p>
             <p>Audio/Video Design & Production (Adobe Premiere, Adobe Audition), Applied Digital Media 1&2 (JavaScript, HTML, CSS, Bootstrap), IT Professional Skills, Database Management (MySQL), Object-Oriented Computing 1 (Java), Applied Network Technologies (Cisco – Packet Tracer), System Analysis Methods, Project Management (MS Projects), Digital Photography (DSLR cameras), Computer Forensics & Digital Investigation, Group Project</p>
+            <!--p>Result: First Class Honours</p-->
           </div>
           <div class="resume-item">
             <h4>Multimedia and Web Development - Advanced Certificate, NFQ Level 6</h4>
@@ -226,6 +568,7 @@
             <p><em>Galway Community College, Galway, Ireland</em></p>
             <h6>Modules</h6>
             <p>Web Hosting, Web Authoring (HTML, CSS, jQuery, Bootstrap, PHP, MySQL, cPanel), Sound Technology (Audacity, Garageband), Digital Imaging (Photoshop, Illustrator, InDesign, QuarkXPress), Multimedia Technology, Communication Skills, Project Management for Digital Media Production, Work Experience (WordPress)</p>
+            <!--p>Result: Distinction</p-->
           </div>
           <div class="resume-item">
             <h4>Graphic Designer - Certificate, NFQ Level 5</h4>
@@ -233,6 +576,7 @@
             <p><em>Galway Community College, Galway, Ireland</em></p>
             <h6>Modules</h6>
             <p>Design, Drawing, Combined Materials, Desktop Publications (QuarkXPress, InDesign), Computer Illustrated Graphics (Illustrator), Graphic Design, Communication Skills, Work Experience (Graphic Design)</p>
+            <!--p>Result: Distinction</p-->
           </div>
         </div>
         <div class="col-lg-6">
@@ -306,9 +650,9 @@
             <p><em>HID Global - Assa Abloy, Galway, Ireland </em></p>
             <p>
             <ul>
-              <li>I worked alongside the HR team and corporate Marketing on employer branding</li>
+              <li>I worked alongside with the HR team and corporate Marketing on employer branding</li>
               <li>I coordinated social media content</li>
-              <li>Marker research and Copywriter brand awareness according to internal policies and GDPR regulations</li>
+              <li>Marker research and copywrite brand awareness according to internal policies and GDPR regulations</li>
                <li>Coordinated employee values and training sessions</li>
             </ul>            
           </div>
@@ -415,6 +759,69 @@
       </div>
     </div>
   </section><!-- End Resume Section -->
+
+  <!-- ======= Services Section ======= --
+  <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>My Services</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4><a href="">Lorem Ipsum</a></h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Sed ut perspiciatis</a></h4>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <h4><a href="">Magni Dolores</a></h4>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4><a href="">Nemo Enim</a></h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-slideshow"></i></div>
+            <h4><a href="">Dele cardo</a></h4>
+            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-arch"></i></div>
+            <h4><a href="">Divera don</a></h4>
+            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
 
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
@@ -564,6 +971,8 @@
           </div>
         </div>
 
+
+
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/lookjobs.jpg" class="img-fluid" alt="LookJobs">
@@ -601,6 +1010,48 @@
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/ppark.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Peoples's Park"><i class="bx bx-plus"></i></a>
                 <a href="pp.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Project Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-graphic">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/miys.jpg" class="img-fluid" alt="LookJobs">
+            <div class="portfolio-info">
+              <h4>MiYs</h4>
+              <p>Graphic Design</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/miys.jpg" data-gallery="miys" class="portfolio-lightbox" title="MiYs logo"><i class="bx bx-plus"></i></a>
+                <a href="miys.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="miys - Project Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/pulitzer.jpg" class="img-fluid" alt="pulitzer-home-page">
+            <div class="portfolio-info">
+              <h4>Pulitzer - website</h4>
+              <p>Web Development</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/pulitzer.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="pulitzer website"><i class="bx bx-plus"></i></a>
+                <a href="pulitzer.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="pulitzer - Project Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-graphic">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/pizza-pronto.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Pizza Pronto</h4>
+              <p>Graphic Design</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/pizza-pronto.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pizza Pronto"><i class="bx bx-plus"></i></a>
+                <a href="pizza.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Pizza Pronto Project Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -657,7 +1108,7 @@
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
     <div class="container">
-      
+
       <div class="section-title">
         <h2>Contact</h2>
         <p>Contact Me</p>
@@ -729,6 +1180,14 @@
 
     </div>
   </section><!-- End Contact Section -->
+
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+    <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  </div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
